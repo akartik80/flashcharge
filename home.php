@@ -56,21 +56,7 @@
     <! -- ******************** FEATURES SECTION ******************** -->	
 	<div class="container" id="explore">
  
-		<div class="section-title">
-			<h2>Showcase your product with style.</h2>
-			<h4>This theme is ideal for your Web Project or your App.</h4>
-		</div>
-
-		<section class="row heroimg breath">
-			<div class="col-md-12 text-center"> 
-				<img src="images/flat-mockup-template.png" alt="flat-mockup-template">
-			</div>
-		</section><! --/section -->
- 
-		<div class="section-title">
-			<h2>More information about your product.</h2>
-			<h4>Always detail some important features.</h4>
-		</div>
+		
 		
 		<section class="row features">
 			<div class="col-sm-6 col-md-3">
@@ -117,13 +103,15 @@
 
 	    <! -- ******************** CLIENTS SECTION ******************** -->	 
 		<div class="section-title">
-			<h2>Some of our clients</h2>
-			<h4>We work with different kind of brands</h4>
+			<h2>Some of our partners</h2>
+			<h4>We work with a variety of merchants</h4>
 		</div>
 	
 		<section class="row clientlogo breath">
 			<div class="col-md-12 text-center"> 
-				<img src="images/client-logos.png" alt="client-logos">
+				<img src="img/paytm.jpeg" alt="client-logos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="img/freecharge.png" alt="client-logos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="img/mobikwik.jpg" alt="client-logos">
 			</div>
 		</section><! --/section -->
  
@@ -131,77 +119,9 @@
  
 
 	    <! -- ******************** TESTIMONIALS SECTION ******************** -->	 
-		<div class="highlight testimonials">
-			<div class="container">
-				<div class="section-title">
-					<h2>What our customers said</h2>
-					<h4>Don't take our word. See our testimonials </h4>
-				</div>
-				
-				<section class="row breath">
-					<div class="col-md-6">
-						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-						<div class="clientblock"> 
-							<img src="images/customer-img-1.jpg" alt=".">
-							<p><strong>John Doe</strong> <br>
-								Founder of <a href="index.html#">Blacktie.co</a>
-							</p>
-						</div>
-					</div><! --/col-md-6 -->
-					
-					<div class="col-md-6">
-						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-						<div class="clientblock"> 
-							<img src="images/customer-img-2.jpg" alt=".">
-							<p><strong>Richard Sommer</strong> <br>
-								CEO of <a href="index.html#">Blacktie.co</a>
-							</p>
-						</div>
-					</div><! --/col-md-6 -->
-				</section><! --/section -->
+			  
  
-			</div><! --/container -->
-		</div><! --/highlight Testimonials -->
- 
-
-	    <! -- ******************** PRICING LIST ******************** -->	  
-		<div class="container">
- 
-			<div class="section-title">
-				<h2>Honest pricing. No surprises.</h2>
-				<h4>No contract. No risk. No credit card required. </h4>
-			</div>
-			<section class="row breath planpricing">
-			
-				<div class="col-md-4">
-					<div class="pricing color1">
-						<div class="planname">Personal</div>
-						<div class="price"> <span class="curr">$</span>14<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-				
-				<div class="col-md-4">
-					<div class="pricing color2">
-						<div class="planname">Agency</div>
-						<div class="price"> <span class="curr">$</span>49<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-				
-				<div class="col-md-4">
-					<div class="pricing color3">
-						<div class="planname">Enterprise</div>
-						<div class="price"> <span class="curr">$</span>99<span class="per">/MO</span></div>
-						<div class="billing">Billed Annually</div>
-					</div><! --/pricing -->
-				</div><! --/col-md-4-->
-			</section><!-- /section planpricing -->
- 
-
-	    <! -- ******************** FAQ ******************** -->	  
- 
-		<div class="section-title">
+		<div class="section-title highlight-testimonials">
 			<h5>Frequently Asked Questions</h5>
 		</div>
 		

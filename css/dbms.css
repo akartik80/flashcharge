@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: arial, verdana, sans-serif;
+	background-size: 100%;
+	background-repeat: none;
+	padding: 5px;
+	padding-top: 20px;
+	font-weight: 12px;
+}
+
+img.student {
+	position: fixed;
+	top: 40px;
+	left: 400px;
+}
+
+a.active {
+    color: rgb(5, 8, 87)
+}
+
+img.feedback {
+	position: fixed;
+	top: 20px;
+	left:40px;
+}
+
+img.faculty_login {
+	position:fixed;
+	top: 450px;
+	left: 78px;
+}
+
+.bs-example{
+    	margin: 20px;
+    }
+
+img.student_login {
+	position:fixed;
+	top: 350px;
+	left: 78px;
+}
+
+img.register {
+    position: fixed;
+	top: 540px;
+	left: 248px;
+}
+
+div.new_user {
+    position: fixed;
+	top: 530px;
+	left: 120px;
+}
+
+form {
+    position:fixed;
+    top: 300px;
+    left: 100px;
+}
