@@ -80,7 +80,7 @@
 					   } else {
 						  echo "<br>"."Password do not match";
 					   }
-				    } 
+				    }
 				?>
 
 				<h2 align="center">Please Sign Up <small><font color="#666666">(All fields are mandatory)</font></small></h2>
