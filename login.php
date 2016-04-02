@@ -41,7 +41,7 @@
                     $row = mysql_fetch_assoc($result);
                       //echo $row;
                     if ($row) {
-                      echo "<script>window.location.replace('home.php');</script>";
+                      echo "<script>window.location.replace('mobile.php');</script>";
                     } else {
                       echo "Please register first.<br>";
                     }

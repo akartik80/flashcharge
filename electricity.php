@@ -75,7 +75,7 @@
  		<section class="row features">
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail"> 
-					<a href = ".php">
+					<a href = "mobile.php">
 					
 						<img src="images/service_01.png" alt="analytics-icon">
 						
@@ -91,7 +91,7 @@
  
 			<div class="col-sm-6 col-md-3">
 				<div class="thumbnail">
-					<a href = "bill.php">
+					<a href = "electricity.php">
 						<img src="images/service_02.png" alt="analytics-icon">
 						<div class="caption">
 							<h3>Electricity Bill</h3>
@@ -115,58 +115,63 @@
 			</div><! --/col-sm-6-->
  
 			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail"> 
-					<img src="images/service_04.png" alt="analytics-icon">
-					<div class="caption">
-						<h3>Water Bill</h3>
-						<p></p>
-					</div>
+				<div class="thumbnail">
+					<a href="water.php">
+						<img src="images/service_04.png" alt="analytics-icon">
+						<div class="caption">
+							<h3>Water Bill</h3>
+							<p></p>
+						</div>
+					</a>
 				</div><! --/thumbnail -->
 			</div><! --/col-sm-6-->
 
 			<div class="col-sm-6 col-md-3">
-				<a href="landline.php">
-					<div class="thumbnail"> 
+				<div class="thumbnail">
+					<a href="landline.php">
 						<img src="images/service_05.png" alt="analytics-icon">
 						<div class="caption">
 							<h3>Landline</h3>
 							<p></p>
 						</div>
-					</div><! --/thumbnail -->
-				</a>
-				
+					</a>
+				</div><! --/thumbnail -->
 			</div><! --/col-sm-6-->
 
 			<div class="col-sm-6 col-md-3">
-				<a href="electricity.php">
-					<div class="thumbnail"> 
+				<div class="thumbnail">
+					<a href="gas.php">
 						<img src="images/service_06.png" alt="analytics-icon">
 						<div class="caption">
 							<h3>Gas</h3>
 							<p></p>
 						</div>
-					</div><! --/thumbnail -->
-				</a>
-			</div><! --/col-sm-6-->
-
-			<div class="col-sm-6 col-md-3">
-				<a href=""></a>
-				<div class="thumbnail"> 
-					<img src="images/service_07.png" alt="analytics-icon">
-					<div class="caption">
-						<h3>Metro</h3>
-						<p></p>
-					</div>
+					</a>
 				</div><! --/thumbnail -->
 			</div><! --/col-sm-6-->
 
 			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail"> 
-					<img src="images/service_08.png" alt="analytics-icon">
-					<div class="caption">
-						<h3>Bus</h3>
-						<p></p>
-					</div>
+				<div class="thumbnail">
+					<a href="metro.php">
+						<img src="images/service_07.png" alt="analytics-icon">
+						<div class="caption">
+							<h3>Metro</h3>
+							<p></p>
+						</div>
+					</a>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<a href="bus.php">
+						<img src="images/service_08.png" alt="analytics-icon">
+						<div class="caption">
+							<h3>Bus</h3>
+							<p></p>
+						</div>
+					</a>
+					
 				</div><! --/thumbnail -->
 			</div><! --/col-sm-6-->
 		</section><! --/section -->
