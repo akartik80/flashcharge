@@ -189,9 +189,9 @@
 	
 		<section class="row clientlogo breath">
 			<div class="col-md-12 text-center"> 
-				<a href="paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
+				<a href="http://paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
 			</div>
 		</section><! --/section -->
  

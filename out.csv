@@ -1,0 +1,17 @@
+Type,Operator,Day,Min_Rec,Coupon,%,Fixed_Rec,Max_Cashback
+recharge,all,all,100,WALLET20,-,20,-
+recharge,all,all,50,6FC,6,-,50
+recharge,all,all,50,5FC,5,-,50
+recharge,all,all,50,4FC,4,-,50
+electricity,all,all,50,4FC,4,-,50
+electricity,all,all,500,BILL20,20,-,100
+electricity,all,all,400,FCBILL,20,-,100
+water,all,all,50,4FC,4,-,50
+gas,all,all,400,FCBILL,20,-,100
+gas,all,all,500,BILL20,20,-,100
+gas,all,all,50,4FC,4,-,50
+dth,all,all,400,FCBILL,20,-,100
+dth,all,all,300,DTH25,25,-,100
+dth,all,all,50,F5FC,5,-,50
+metro,all,all,0,VISA50,10,-,50
+landline,all,all,50,4FC,4,-,50

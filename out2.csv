@@ -1,0 +1,13 @@
+Type,Operator,Day,Min_Rec,Coupon,%,Fixed_Rec,Max_Cashback
+recharge,all,all,100,SUMMER,-,20,-
+recharge,all,all,10,KWIK10,10,-,100
+landline,all,all,10,KWIK10,10,-,100
+dth,all,all,10,KWIK10,10,-,100
+landline,all,all,10,KWIK10,10,-,100
+electricity,all,all,10,KWIK10,10,-,100
+water,all,all,10,KWIK10,10,-,100
+landline,all,all,100,SUMMER,-,20,-
+dth,all,all,100,SUMMER,-,20,-
+landline,all,all,100,SUMMER,-,20,-
+electricity,all,all,100,SUMMER,-,20,-
+water,all,all,100,SUMMER,-,20,-

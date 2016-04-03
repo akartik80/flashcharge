@@ -1,0 +1,16 @@
+Type,Operator,Day,Min_Rec,Coupon,%age,Fixed_Rec,Max_CB
+water,all,all,1,BILLPAY,3,-,100
+water,all,all,0,PAYDJB,5,-,50
+landline,all,all,60,BROADBAND,-,100,-
+recharge,all,all,0,GRAB200,4,-,200
+recharge,all,all,50,RC35,-,5,-
+metro,all,all,0,MMETRO,10,-,100
+electricity,all,all,1,BILLPAY,3,-,100
+electricity,all,all,500,PAYBILL,-,-,75
+recharge,reliance,wednesday,400,RELIANCE400,-,30,-
+recharge,idea,tuesday,400,IDEA400,-,30,-
+recharge,vodafone,thursday,400,VODA400,-,30,-
+recharge,mtnl,sunday,400,MTNL400,-,30,-
+recharge,tata,saturday,400,TATA400,-,30,-
+recharge,aircel,friday,400,AIRCEL400,-,30,-
+recharge,bsnl,monday,400,BSNL400,-,30,-

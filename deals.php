@@ -50,10 +50,10 @@
 	<?php
 		$operator = $_POST['operator'];
 		$amount = $_POST['amount'];
-		exec("java -jar test1.jar $operator $amount", $output);
+		//echo $operator." ".$amount;
+		$ans = exec("java -jar test1.jar", $output);
+		 //echo "\n".$output[0];
 	?>
- 
-
 
 	    <! -- ******************** CLIENTS SECTION ******************** -->
 		<div class="section-title">
@@ -64,21 +64,21 @@
 	
 		<section class="row clientlogo breath">
 			<div class="col-md-12 text-center"> 
-				<a href="paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
+				<a href="http://paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
 			</div>
 
 			<div class="col-md-12 text-center"> 
-				<div class="col-md-4"><h3>Promocode: <php echo $output[0] ?> </h3></div>
-				<div class="col-md-4"><h3>Promocode: <php echo $output[2] ?> </h3></div>
-				<div class="col-md-4"><h3>Promocode: <php echo $output[4] ?> </h3></div>
+				<div class="col-md-4"><h3>Promocode: <?php echo $output[0] ?> </h3></div>
+				<div class="col-md-4"><h3>Promocode: <?php echo $output[2] ?> </h3></div>
+				<div class="col-md-4"><h3>Promocode(App Only): <?php echo $output[4] ?> </h3></div>
 			</div>
 
 			<div class="col-md-12 text-center"> 
-				<div class="col-md-4"><h3>Estimated Cashback: <php echo $output[1] ?> </h3></div>
-				<div class="col-md-4"><h3>Estimated Cashback: <php echo $output[3] ?> </h3></div>
-				<div class="col-md-4"><h3>Estimated Cashback: <php echo $output[5] ?> </h3></div>
+				<div class="col-md-4"><h3>Estimated Cashback: <?php echo $output[1] ?> </h3></div>
+				<div class="col-md-4"><h3>Estimated Cashback: <?php echo $output[3] ?> </h3></div>
+				<div class="col-md-4"><h3>Estimated Cashback: <?php echo $output[5] ?> </h3></div>
 			</div>
 
 		</section><! --/section -->
