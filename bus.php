@@ -33,6 +33,12 @@
 		.mybutton {
 			transform: translateY(-9px);
 		}
+
+		.right {
+			text-align: right;
+			transform: translateX(-290px);	
+			color: #2ECC71;
+		}
 	</style>
  
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
@@ -46,23 +52,21 @@
 			</a>-->
 
 			<h1><b>FlashCharge</b></h1>
+			<h3 class="right"> <b>-Recharge in a flash!</b> </h3>
 
 			</div>
  
-			<h1>Just enter your number <strong>and we will figure the rest</strong> <br>
+			<h1>Just enter your number<br> <strong>and we will figure the rest</strong> <br><br>
 			
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="deals.php" id="subscribeForm" method="GET">
+					<form class="form-horizontal" role="form" action="coupons.php" id="subscribeForm" method="POST">
 						<div class="form-group">
 							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
 								<input class="form-control input-lg" name="numb" type="tel" id="mobile" placeholder="Enter your number" data-validate="validate(required, email)" required="required">
 							</div>
-
-							<input name="operator" type="hidden" value="<?php  echo $operator ?>"></input>
-
 							<div class="col-md-5 col-sm-4">
-								<button type="submit" class="btn btn-success btn-lg mybutton">FLASHCHARGE NOW</button>
+								<button type="submit" class="btn btn-success btn-lg mybutton">NEXT</button>
 							</div>
 						</div>
 					</form>
@@ -192,9 +196,9 @@
 	
 		<section class="row clientlogo breath">
 			<div class="col-md-12 text-center"> 
-				<a href="paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
+				<a href="http://paytm.com"><img src="img/paytm.jpeg" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://freecharge.com"><img src="img/freecharge.png" alt="client-logos"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://mobikwik.com"><img src="img/mobikwik.jpg" alt="client-logos"></a>
 			</div>
 		</section><! --/section -->
  

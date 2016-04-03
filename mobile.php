@@ -33,6 +33,12 @@
 		.mybutton {
 			transform: translateY(-9px);
 		}
+
+		.right {
+			text-align: right;
+			transform: translateX(-290px);	
+			color: #2ECC71;
+		}
 	</style>
  
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
@@ -46,6 +52,7 @@
 			</a>-->
 
 			<h1><b>FlashCharge</b></h1>
+			<h3 class="right"> <b>-Recharge in a flash!</b> </h3>
 
 			</div>
  

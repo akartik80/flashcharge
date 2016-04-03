@@ -51,8 +51,8 @@
 		$operator = $_POST['operator'];
 		$amount = $_POST['amount'];
 		//echo $operator." ".$amount;
-		$ans = exec("java -jar test1.jar", $output);
-		 //echo "\n".$output[0];
+		$ans = exec("java -jar test1.jar $operator $amount", $output);
+		//echo "\n".$output[2];
 	?>
 
 	    <! -- ******************** CLIENTS SECTION ******************** -->
