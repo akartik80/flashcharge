@@ -49,17 +49,17 @@
 
 			</div>
  
-			<h1>Just enter your number <strong>and we will figure the rest</strong> <br>
+			<h1>Just enter your number<br> <strong>and we will figure the rest</strong> <br><br>
 			
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="coupons.php" id="subscribeForm" method="GET">
+					<form class="form-horizontal" role="form" action="coupons.php" id="subscribeForm" method="POST">
 						<div class="form-group">
 							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
 								<input class="form-control input-lg" name="numb" type="tel" id="mobile" placeholder="Enter your number" data-validate="validate(required, email)" required="required">
 							</div>
 							<div class="col-md-5 col-sm-4">
-								<button type="submit" class="btn btn-success btn-lg mybutton">FLASHCHARGE NOW</button>
+								<button type="submit" class="btn btn-success btn-lg mybutton">NEXT</button>
 							</div>
 						</div>
 					</form>

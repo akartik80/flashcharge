@@ -29,13 +29,17 @@
    		a {
     		text-decoration: none;
 		}
+
+		.mybutton {
+			transform: translateY(-9px);
+		}
 	</style>
  
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<! -- ******************** MASTHEAD SECTION ******************** -->	
+	<! -- ******************** MASTHEAD SECTION ******************** -->
 	<main id="top" class="masthead" role="main">
 		<div class="container">
 			<div class="logo"> <!-- <a href="home.php"><img src="images/logo.png" alt="logo">
@@ -49,13 +53,13 @@
 			
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
+					<form class="form-horizontal" role="form" action="coupons.php" id="subscribeForm" method="GET">
 						<div class="form-group">
 							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-								<input class="form-control input-lg" name="mobile" type="tel" id="mobile" placeholder="Enter your number" data-validate="validate(required, email)" required="required">
+								<input class="form-control input-lg" name="numb" type="tel" id="mobile" placeholder="Enter your number" data-validate="validate(required, email)" required="required">
 							</div>
 							<div class="col-md-5 col-sm-4">
-								<button type="submit" class="btn btn-success btn-lg">FLASHCHARGE NOW</button>
+								<button type="submit" class="btn btn-success btn-lg mybutton">FLASHCHARGE NOW</button>
 							</div>
 						</div>
 					</form>
